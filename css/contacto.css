@@ -1,0 +1,156 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:#f3f4f5;
+color:#252525;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+background:#3b141c;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:16px 40px;
+}
+
+.logo a{
+font-family:"Miniver", sans-serif;
+color:#ffffff;
+text-decoration:none;
+font-size:1.5rem;
+}
+
+.nav-links{
+display:flex;
+align-items:center;
+gap:25px;
+}
+
+.nav-links a{
+color:#ffffff;
+text-decoration:none;
+font-size:0.95rem;
+transition:0.3s;
+}
+
+.nav-links a:hover{
+color:#f3961c;
+}
+
+.nav-links .active{
+font-weight:bold;
+}
+
+/* ================= CONTACT SECTION ================= */
+
+.contact-section{
+padding:80px 60px;
+text-align:center;
+}
+
+.contact-section h1{
+font-size:2.5rem;
+color:#252525;
+margin-bottom:15px;
+}
+
+.contact-section h1::after{
+content:"";
+display:block;
+width:80px;
+height:4px;
+background:#f3961c;
+margin:15px auto 0;
+border-radius:10px;
+}
+
+/* ================= GRID ================= */
+
+.contact-container{
+margin-top:50px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+/* ================= LEFT CARD ================= */
+
+.contact-info{
+background:#ffffff;
+padding:40px;
+border-radius:16px;
+box-shadow:0 6px 20px rgba(0,0,0,0.1);
+text-align:left;
+}
+
+.contact-info p{
+margin-bottom:15px;
+color:#252525;
+}
+
+.brand{
+margin-top:30px;
+font-family:"Miniver", sans-serif;
+font-size:1.5rem;
+color:#f3961c;
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+/* ================= FORM ================= */
+
+.contact-form{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:15px;
+border-radius:12px;
+border:1px solid #cccccc;
+outline:none;
+font-size:0.95rem;
+}
+
+.contact-form textarea{
+height:180px;
+resize:none;
+}
+
+.contact-form button{
+background:#3b141c;
+color:#ffffff;
+padding:12px;
+border:none;
+border-radius:12px;
+font-size:1rem;
+cursor:pointer;
+transition:0.3s;
+}
+
+.contact-form button:hover{
+background:#f3961c;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:900px){
+
+.contact-container{
+grid-template-columns:1fr;
+}
+
+.contact-section{
+padding:60px 20px;
+}
+}

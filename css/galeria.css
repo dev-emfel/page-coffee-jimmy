@@ -10,8 +10,6 @@ background:#ffffff;
 color:#252525;
 }
 
-/* ================= NAVBAR ================= */
-
 .navbar{
 background:#3b141c;
 width:100%;
@@ -49,8 +47,6 @@ color:#f3961c;
 font-weight:bold;
 }
 
-/* ================= GALERIA ================= */
-
 .galeria-section{
 padding:80px 60px;
 text-align:center;
@@ -80,8 +76,6 @@ gap:20px;
 margin-top:50px;
 }
 
-/* Imagen wrapper */
-
 .img-box{
 overflow:hidden;
 border-radius:14px;
@@ -99,7 +93,6 @@ transition:0.3s;
 transform:scale(1.05);
 }
 
-/* ================= RESPONSIVE ================= */
 
 @media(max-width:992px){
 .galeria-grid{
