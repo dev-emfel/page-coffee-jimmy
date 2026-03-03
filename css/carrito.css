@@ -1,0 +1,175 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:#f3f4f5;
+color:#252525;
+}
+
+
+.navbar{
+background:#3b141c;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:16px 40px;
+}
+
+.logo a{
+font-family:"Miniver", sans-serif;
+color:#ffffff;
+text-decoration:none;
+font-size:1.5rem;
+}
+
+.nav-links{
+display:flex;
+align-items:center;
+gap:25px;
+}
+
+.nav-links a{
+color:#ffffff;
+text-decoration:none;
+font-size:0.95rem;
+}
+
+.nav-links a:hover{
+color:#f3961c;
+}
+
+
+.cart-section{
+padding:60px 60px;
+}
+
+.cart-container{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:40px;
+}
+
+
+.cart-left h1{
+font-size:2rem;
+margin-bottom:10px;
+}
+
+.subtitle{
+color:#777;
+margin-bottom:30px;
+}
+
+.empty-cart{
+background:#ffffff;
+padding:40px;
+border-radius:16px;
+box-shadow:0 6px 20px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.empty-cart .icon{
+font-size:60px;
+color:#cccccc;
+margin-bottom:20px;
+}
+
+.empty-cart h2{
+margin-bottom:10px;
+}
+
+.empty-cart p{
+color:#777;
+margin-bottom:20px;
+}
+
+.explore-btn{
+background:#3b141c;
+color:#ffffff;
+border:none;
+padding:12px 20px;
+border-radius:12px;
+cursor:pointer;
+}
+
+.explore-btn:hover{
+background:#f3961c;
+}
+
+
+.summary-box,
+.shipping-box{
+background:#ffffff;
+padding:25px;
+border-radius:16px;
+box-shadow:0 6px 20px rgba(0,0,0,0.1);
+margin-bottom:25px;
+}
+
+.summary-line{
+display:flex;
+justify-content:space-between;
+margin:10px 0;
+}
+
+.summary-total{
+display:flex;
+justify-content:space-between;
+margin-top:15px;
+padding:10px;
+border:1px solid #cccccc;
+border-radius:8px;
+font-weight:bold;
+}
+
+.free{
+color:green;
+font-weight:bold;
+}
+
+.shipping-box input{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border-radius:10px;
+border:1px solid #cccccc;
+}
+
+.row{
+display:flex;
+gap:15px;
+}
+
+.checkout-btn{
+width:100%;
+background:#f3961c;
+color:#ffffff;
+border:none;
+padding:12px;
+border-radius:12px;
+cursor:pointer;
+margin-top:10px;
+}
+
+.checkout-btn:hover{
+background:#3b141c;
+}
+
+.extra-info{
+margin-top:15px;
+font-size:0.9rem;
+color:#555;
+}
+
+
+@media(max-width:900px){
+
+.cart-container{
+grid-template-columns:1fr;
+}
+
+}

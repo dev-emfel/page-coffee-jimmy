@@ -1,29 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Miniver&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrito - Coffe</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Miniver&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/carrito.css">
 
 </head>
-
 <body>
-        <header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="./index.html">☕ Coffe</a>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">
+        <a href="./index.html">☕ Coffe</a>
+    </div>
+
+    <div class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./galeria.html">Galeria</a>
+        <a href="./contacto.html"><strong>Contactenos</strong></a>
+        <a href="./carrito.html">🛒</a>
+        <a href="./registro.html">👤</a>
+    </div>
+</nav>
+
+<!-- CONTENIDO -->
+<section class="cart-section">
+
+<div class="cart-container">
+
+    <!-- IZQUIERDA -->
+    <div class="cart-left">
+        <h1>🛒 Tu carrito</h1>
+        <p class="subtitle">Revisa tus productos antes de finalizar la compra</p>
+
+        <div class="empty-cart">
+            <div class="icon">🛒</div>
+            <h2>Tu carrito está vacío</h2>
+            <p>¡Descubre productos increíbles y comienza tu compra!</p>
+            <button class="explore-btn">Explorar Productos</button>
+        </div>
+    </div>
+
+    <!-- DERECHA -->
+    <div class="cart-right">
+
+        <div class="summary-box">
+            <h3>📦 Resumen del Pedido</h3>
+
+            <div class="summary-line">
+                <span>Subtotal</span>
+                <span>$ 0</span>
+            </div>
+
+            <div class="summary-line">
+                <span>Envío</span>
+                <span class="free">Gratis</span>
+            </div>
+
+            <div class="summary-total">
+                <span>Total</span>
+                <span>$ 0</span>
+            </div>
         </div>
 
-        <ul class="nav-links">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./menu.html">Menu</a></li>
-            <li><a href="./galeria.html">Galeria</a></li>
-            <li><a href="./contacto.html">Contactenos</a></li>
-            <li><a href="./carrito.html">🛒</a>/li>
-            <li><a href="./registro.html">👤</a>/li>
-        </ul>
-    </nav>
-    </header>
+        <div class="shipping-box">
+            <h3>📍 Información del Pedido</h3>
+
+            <input type="text" placeholder="Dirección completa">
+
+            <div class="row">
+                <input type="text" placeholder="Ciudad">
+                <input type="text" placeholder="Código Postal">
+            </div>
+
+            <input type="text" placeholder="Método de pago">
+
+            <button class="checkout-btn">Finalizar compra</button>
+
+            <div class="extra-info">
+                <p>🛡 Compra segura y protegida</p>
+                <p>📦 Envío gratis en compras > $100.000</p>
+                <p>👤 Atención al cliente 24/7</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
 </body>
 </html>

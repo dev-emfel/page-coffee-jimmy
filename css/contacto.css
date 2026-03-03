@@ -10,7 +10,6 @@ background:#f3f4f5;
 color:#252525;
 }
 
-/* ================= NAVBAR ================= */
 
 .navbar{
 background:#3b141c;
@@ -48,7 +47,6 @@ color:#f3961c;
 font-weight:bold;
 }
 
-/* ================= CONTACT SECTION ================= */
 
 .contact-section{
 padding:80px 60px;
@@ -71,7 +69,6 @@ margin:15px auto 0;
 border-radius:10px;
 }
 
-/* ================= GRID ================= */
 
 .contact-container{
 margin-top:50px;
@@ -80,7 +77,6 @@ grid-template-columns:1fr 1fr;
 gap:40px;
 }
 
-/* ================= LEFT CARD ================= */
 
 .contact-info{
 background:#ffffff;
@@ -105,7 +101,6 @@ align-items:center;
 gap:10px;
 }
 
-/* ================= FORM ================= */
 
 .contact-form{
 display:flex;
@@ -142,7 +137,6 @@ transition:0.3s;
 background:#f3961c;
 }
 
-/* ================= RESPONSIVE ================= */
 
 @media(max-width:900px){
 
